@@ -1,41 +1,76 @@
-<a href="https://chat.vercel.ai/">
-  <img alt="Next.js 14 and App Router-ready AI chatbot." src="app/(chat)/opengraph-image.png">
-  <h1 align="center">Next.js AI Chatbot</h1>
-</a>
+# 🤖 Next.js AI Chatbot
+
+<div align="center">
+  <img alt="Next.js AI Chatbot - Intelligent conversational interface" src="app/(chat)/opengraph-image.png" width="600">
+
+  **Intelligent conversational interface built with Next.js and TypeScript. Demonstrates modern AI integration patterns and responsive chat UI design.**
+
+  [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+  [![AI SDK](https://img.shields.io/badge/AI_SDK-Vercel-blue?style=for-the-badge)](https://sdk.vercel.ai)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+</div>
 
 <p align="center">
-  An Open-Source AI Chatbot Template Built With Next.js and the AI SDK by Vercel.
+  <a href="#-features"><strong>Features</strong></a> ·
+  <a href="#-tech-stack"><strong>Tech Stack</strong></a> ·
+  <a href="#-quick-start"><strong>Quick Start</strong></a> ·
+  <a href="#-deployment"><strong>Deployment</strong></a>
 </p>
 
-<p align="center">
-  <a href="#features"><strong>Features</strong></a> ·
-  <a href="#model-providers"><strong>Model Providers</strong></a> ·
-  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
-  <a href="#running-locally"><strong>Running locally</strong></a>
-</p>
-<br/>
+---
 
-## Features
+## ✨ Features
 
-- [Next.js](https://nextjs.org) App Router
-  - Advanced routing for seamless navigation and performance
-  - React Server Components (RSCs) and Server Actions for server-side rendering and increased performance
-- [AI SDK](https://sdk.vercel.ai/docs)
-  - Unified API for generating text, structured objects, and tool calls with LLMs
-  - Hooks for building dynamic chat and generative user interfaces
-  - Supports OpenAI (default), Anthropic, Cohere, and other model providers
-- [shadcn/ui](https://ui.shadcn.com)
-  - Styling with [Tailwind CSS](https://tailwindcss.com)
-  - Component primitives from [Radix UI](https://radix-ui.com) for accessibility and flexibility
-- Data Persistence
-  - [Vercel Postgres powered by Neon](https://vercel.com/storage/postgres) for saving chat history and user data
-  - [Vercel Blob](https://vercel.com/storage/blob) for efficient file storage
-- [NextAuth.js](https://github.com/nextauthjs/next-auth)
-  - Simple and secure authentication
+### 🧠 **AI-Powered Conversations**
+- **Multiple AI Providers**: OpenAI GPT-4, Anthropic Claude, Cohere, and more
+- **Intelligent Responses**: Context-aware conversations with memory
+- **Real-time Streaming**: Live response generation with typing indicators
+- **Multi-modal Support**: Text, images, and file attachments
 
-## Model Providers
+### 🎨 **Modern User Interface**
+- **Responsive Design**: Optimized for desktop, tablet, and mobile
+- **Dark/Light Themes**: Automatic theme switching with user preferences
+- **Accessibility**: WCAG 2.1 AA compliant with keyboard navigation
+- **Component Library**: Built with shadcn/ui and Radix UI primitives
 
-This template ships with OpenAI `gpt-4o` as the default. However, with the [AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [OpenAI](https://openai.com), [Anthropic](https://anthropic.com), [Cohere](https://cohere.com/), and [many more](https://sdk.vercel.ai/providers/ai-sdk-providers) with just a few lines of code.
+### 🔧 **Technical Excellence**
+- **Next.js 14**: App Router with React Server Components
+- **TypeScript**: Full type safety and enhanced developer experience
+- **Real-time Updates**: Server Actions for seamless interactions
+- **Performance Optimized**: Code splitting, lazy loading, and caching
+
+### 💾 **Data & Authentication**
+- **Persistent Storage**: Chat history saved with Vercel Postgres
+- **File Management**: Efficient file storage with Vercel Blob
+- **Secure Authentication**: NextAuth.js integration
+- **User Management**: Profile and preference management
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| **Frontend** | Next.js 14, React, TypeScript, Tailwind CSS |
+| **UI Components** | shadcn/ui, Radix UI, Lucide Icons |
+| **AI Integration** | Vercel AI SDK, OpenAI, Anthropic, Cohere |
+| **Database** | Vercel Postgres (Neon), Drizzle ORM |
+| **Storage** | Vercel Blob for file management |
+| **Authentication** | NextAuth.js with multiple providers |
+| **Deployment** | Vercel with edge functions |
+| **Development** | Biome, ESLint, Prettier, TypeScript |
+
+## 🤖 AI Model Providers
+
+This chatbot supports multiple AI providers through the Vercel AI SDK:
+
+- **OpenAI**: GPT-4, GPT-4 Turbo, GPT-3.5 Turbo
+- **Anthropic**: Claude 3 Opus, Claude 3 Sonnet, Claude 3 Haiku
+- **Cohere**: Command R+, Command R
+- **Google**: Gemini Pro, Gemini Pro Vision
+- **Mistral**: Mistral Large, Mistral Medium
+- **Custom Models**: Easy integration with any OpenAI-compatible API
+
+Switch between providers with just a few lines of code configuration.
 
 ## Deploy Your Own
 
