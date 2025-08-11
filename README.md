@@ -79,11 +79,29 @@ This chatbot supports multiple AI providers through the Vercel AI SDK:
 
 Switch between providers with just a few lines of code configuration.
 
-## Deploy Your Own
+## 🌐 Live Demo
 
-You can deploy your own version of the Next.js AI Chatbot to Vercel with one click:
+Experience the enhanced AI chatbot with ethical AI features: **[Live Demo Coming Soon]**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fai-chatbot&env=AUTH_SECRET,OPENAI_API_KEY&envDescription=Learn%20more%20about%20how%20to%20get%20the%20API%20Keys%20for%20the%20application&envLink=https%3A%2F%2Fgithub.com%2Fvercel%2Fai-chatbot%2Fblob%2Fmain%2F.env.example&demo-title=AI%20Chatbot&demo-description=An%20Open-Source%20AI%20Chatbot%20Template%20Built%20With%20Next.js%20and%20the%20AI%20SDK%20by%20Vercel.&demo-url=https%3A%2F%2Fchat.vercel.ai&stores=[{%22type%22:%22postgres%22},{%22type%22:%22blob%22}])
+> **Note**: Currently implementing deployment optimizations for best performance. Live demo will showcase all API integrations and ethical AI enhancements.
+
+## 📦 Deploy Your Own
+
+For detailed deployment instructions with environment setup, see [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+### **Quick Deploy to Vercel**
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy to production
+vercel --prod
+```
+
+**Important**: Configure all environment variables in Vercel Dashboard before deployment.
+
+### **One-Click Deploy (Alternative)**
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FKabi10%2Fnextjs-ai-chatbot&env=AUTH_SECRET,OPENAI_API_KEY,POSTGRES_URL&envDescription=Configure%20all%20required%20environment%20variables&envLink=https%3A%2F%2Fgithub.com%2FKabi10%2Fnextjs-ai-chatbot%2Fblob%2Fmain%2F.env.example)
 
 ## Running locally
 
